@@ -1,0 +1,5 @@
+let kidoku_buttun_arr_da = ([].slice.call(document.querySelectorAll('[id$="mrk"]')));
+
+kidoku_buttun_arr_da.forEach(input_elem_da => {
+input_elem_da.click();
+});
